@@ -19,8 +19,8 @@ scipy               1.7.3
 ## Training and Inference
 To evaluate, run the below commands.
 ```
-sh run_cycle_tumor.sh
-sh run_cycle_mci.sh
+sh ./script/run_cycle_tumor.sh
+sh ./script/run_cycle_mci.sh
 ```
 To train the model, add the ```--training``` option in the script files.
 We also provide source codes for baseline supervised methods, and you can run them with ```run_supervised_tumor.sh```, ```run_supervised_mci.sh```, ```run_supervised_physics_tumor.sh```, and ```run_supervised_physics_mci.sh```.
